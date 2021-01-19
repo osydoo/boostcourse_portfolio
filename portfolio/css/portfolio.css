@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    /* padding: 0 20%; */
+}
+
+header {
+    height: 120px;
+    background-color: #000;
+    line-height: 120px;
+}
+
+.head {
+    color: #fff;
+    width: 1000px;
+    margin: auto;
+    font-size: 40px;
+    padding: 0 40px 0 40px ;
+}
+
+main {
+    background-color: #fff;
+}
+
+.main {
+    width: 1000px;
+    padding : 40px 40px 40px 40px;
+    margin: auto;
+}
+
+.section_nav {
+    font-size: 0px;
+    display: block;
+}
+
+.section_nav::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.box_nav {
+    width: 322px;
+    height: 33px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    float: left;
+    line-height: 33px;
+}
+
+.box_nav:hover {
+    width: 322px;
+    height: 33px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #454545;
+    text-align: center;
+    float: left;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.box_nav_margin {
+    width: 322px;
+    height: 33px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    margin: 0 14px 0 14px;
+    float: left;
+    line-height: 33px;
+}
+
+.box_nav_margin:hover {
+    width: 322px;
+    height: 33px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    margin: 0 14px 0 14px;
+    float: left;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.head2 {
+    border-bottom: 1px solid #454545;
+    margin-bottom: 30px;
+}
+
+.box_element {
+    border: 1px solid #d1d1d1;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.box_element_head {
+    height: 46px;
+    padding: 0 15px;
+    background-color: #f7f7f7;
+    line-height: 46px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.box_element_body {
+    padding:30px;
+    font-size: 12px;
+    color: #000;
+}
+
+footer {
+    border-top: 1px solid #d1d1d1;
+    padding-top: 23px;
+    text-align: center;
+}
+
+.address {
+    font-size: 12px;
+    color: #999;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #000;
+}
