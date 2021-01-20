@@ -1,4 +1,5 @@
 body {
+    font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
     margin: 0;
     /* padding: 0 20%; */
 }
@@ -47,6 +48,7 @@ main {
     text-align: center;
     float: left;
     line-height: 33px;
+    text-decoration: none;
 }
 
 .box_nav:hover {
@@ -59,6 +61,7 @@ main {
     float: left;
     line-height: 33px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .box_nav_margin {
@@ -71,6 +74,7 @@ main {
     margin: 0 14px 0 14px;
     float: left;
     line-height: 33px;
+    text-decoration: none;
 }
 
 .box_nav_margin:hover {
@@ -78,12 +82,13 @@ main {
     height: 33px;
     font-size: 16px;
     color: #000;
-    border: 1px solid #d1d1d1;
+    border: 1px solid #454545;
     text-align: center;
     margin: 0 14px 0 14px;
     float: left;
     line-height: 33px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .head2 {
@@ -110,13 +115,446 @@ main {
 
 .box_element_body {
     padding:30px;
+    color: #000;
+}
+
+.table_kidclothessize {
+    border-collapse: collapse;
+    border: 1px solid #e4e4e4;
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+}
+
+.col_table_kidclothessize_1 {
+    width: 174px;
+}
+
+.col_table_kidclothessize_2 {
+    width: 85px;
+}
+
+.col_table_kidclothessize_3 {
+    width: 170px;
+}
+
+.caption_table_element {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 15px 0;
+}
+
+.thead_kidclothessize{
+    background-color: #fbfbfb;
+}
+
+.thtd_kidclothessize {
+    border: 1px solid #e4e4e4;
+    padding: 10px;
+}
+
+
+.table_refund {
+    border-collapse: collapse;
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.col_refund_1 {
+    width: 340px;
+}
+
+.col_refund_2 {
+    width: 200px;
+}
+
+.thead_refund {
+    background-color: #fbfbfb;
+    border-top: 2px solid #a5a5a5;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.th_refund {
+    padding: 10px;
+    font-weight: normal;
+}
+
+.td_refund {
+    padding: 10px 70px 10px 10px;
+    text-align: right;
+}
+
+.th_refund_tfoot {
+    padding: 10px;
+}
+
+.tfoot_refund {
+    font-weight: bold;
+    background-color: #fbfbfb;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.title_register {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.form_register {
+    background-color: #fbfbfb;
+    border: 1px solid #e4e4e4e4;
+    padding: 15px 15px 15px 15px;
+}
+
+.box_register {
+    margin: 0 0 20px 0;
+}
+
+.label_register {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.input_register {
+    font-size: 12px;
+    color: #000;
+    width: 892px;
+    padding: 7px;
+    border: 1px solid #e4e4e4;
+}
+
+.box_register_selector{
+    font-size: 0px;
+    margin: 0 0 20px 0;
+}
+
+.box_register_selector::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.select_register {
+    font-size: 12px;
+    float: left;
+    width: 296px;
+    padding: 7px;
+    border: 1px solid #e4e4e4;
+}
+
+.select_register_middle {
+    font-size: 12px;
+    float: left;
+    width: 296px;
+    padding: 7px;
+    border: 1px solid #e4e4e4;
+    margin: 0px 10px;
+}
+
+.box_checkbox {
+    font-size: 0px;
+    margin: 0 0 20px 0;
+}
+
+.label_register_check {
+    display: inline-block;
+    vertical-align: middle;
+    width: 113px;
+    font-size: 12px;
+}
+
+.box_vertification {
+    font-size: 0px;
+    margin-bottom: 5px;
+}
+
+.box_vertification::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.input_register_tel {
+    font-size: 12px;
+    color: #000;
+    padding: 7px;
+    border: 1px solid #e4e4e4;
+    width: 80%;
+    float: left;
+}
+
+.button_vertification_code {
+    width: 18%;
+    float: right;
+    border: 1px solid #08a600;
+    background-color: #4ec54d;
+    font-size: 12px;
+    color: #fff;
+    padding: 7px;
+}
+
+.button_vertification_code:hover {
+    cursor: pointer;
+}
+
+.textarea_register {
+    font-size: 12px;
+    width: 892px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #e4e4e4;
+    padding: 7px;
+}
+
+.button_register_submit {
+    width: 908px;
+    padding: 9px;
+    border: 1px solid #08a600;
+    background-color: #4ec53d;
+    font-size: 16px;
+    color: #fff;
+}
+
+.button_register_submit:hover {
+    cursor: pointer;
+}
+
+.box_list {
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.h1_list {
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+}
+
+.dt_list {
+    margin: 20px 0px 10px;
+}
+
+.strong_dt_name{
+    font-size: 14px;
+    color: #000;
+}
+
+.span_dt_source {
+    font-size: 12px;
+    color: #559bfa;
+}
+
+.dd_list {
+    font-size: 12px;
+    margin: 0px;
+    color: #000;
+}
+
+.box_list_searchword {
+    display: inline-block;
+    border: 1px solid #e4e4e4;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+
+.ol_list_searchword {
+    counter-reset: item;
+    margin: 0;
+    padding-left: 0;
+}
+
+.li_list_searchword {
+    display: block;
+}
+
+.li_list_searchword::before {
+    display: inline-block;
+    content: counter(item);
+    counter-increment: item;
+    border: 1px solid #e4e4e4;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    vertical-align: middle;
+    margin: 5px;
+    line-height: 17px;
+}
+
+.a_list_searchword {
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+}
+
+.a_list_searchword:hover {
+    text-decoration: underline;
+}
+
+.ul_list_cookie {
+    padding-left: 15px;
+}
+
+.li_list_cookie {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.span_color_skyblue {
+    font-size: 12px;
+    color: #559bfa;
+}
+
+.span_color_scarlet {
+    font-size: 12px;
+    color: #ec5336;
+}
+
+.a_list_cookie {
+    text-decoration: underline;
+    color: #559bfa;
+}
+
+.ul_list_news {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.li_list_news_withimg {
+    display: block;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.li_list_news_withimg::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.img_list_news {
+    float: left;
+    margin-right: 15px;
+    width: 88px;
+    height: 88px;
+}
+
+.box_list_news_text {
+    float: left;
+    width: 795px;
+}
+
+.a_list_news_title {
+    font-size: 14px;
+    color: #00c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p_list_news_body {
     font-size: 12px;
     color: #000;
 }
 
+.li_list_news {
+    display: block;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.box_list_news_onlytext {
+    width:898px;
+}
+
+.li_list_news_withimg_last {
+    display: block;
+}
+
+.li_list_news_withimg_last::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.ul_list_webtoon {
+    columns: 285px 3;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.li_list_webtoon {
+    margin-right: 20px;
+}
+
+.a_list_webtoon {
+    text-decoration: none;
+}
+
+.img_list_webtoon {
+    width: 285px;
+    height: 140px;
+}
+
+.box_list_webtoon_title {
+    font-size: 0px;
+}
+
+.strong_list_webtoon_title {
+    font-size: 14px;
+    color: #000;
+}
+
+.strong_list_webtoon_title:hover {
+    text-decoration: underline;
+}
+
+.p_list_webtoon_body {
+    display: block;
+    font-size: 12px;
+    color: #000;
+}
+
+.p_list_webtoon_body:hover {
+    text-decoration: underline;
+}
+
+.span_tag_cuttoon {
+    border: 1px solid #71b036;
+    background-color: #80c83d;
+    font-size: 10px;
+    color: #fff;
+    font-weight: normal;
+    padding: 2px;
+}
+
+.span_tag_smarttoon {
+    border: 1px solid #df4e28;
+    background-color: #ec5336;
+    font-size: 10px;
+    color: #fff;
+    font-weight: normal;
+    padding: 2px;
+}
+
 footer {
     border-top: 1px solid #d1d1d1;
-    padding-top: 23px;
+    padding: 23px;
     text-align: center;
 }
 
