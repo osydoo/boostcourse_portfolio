@@ -1,12 +1,35 @@
 @charset "UTF-8";
 
-body, input, textarea, select, button, h1, h2, h3, h4, h5, h6 {
+body, input, textarea, select, button {
     font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 }
 
-body {
-    margin: 0;
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, p {
+	margin: 0;
+	padding: 0;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    vertical-align: top;
+}
+
 
 .body_wrap {
     min-width: 1080px;
@@ -216,19 +239,23 @@ main {
 .form_register {
     background-color: #fbfbfb;
     border: 1px solid #e4e4e4e4;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
 }
 
 .box_register {
-    margin: 0 0 20px 0;
+    margin-top: 20px;
 }
+
+.box_register:first-child {
+    margin-top: 0px;
+}
+
 
 .label_register {
     display: block;
     font-size: 14px;
     color: #000;
     font-weight: bold;
-    margin: 0 0 10px 0;
 }
 
 .input_register {
@@ -237,14 +264,15 @@ main {
     width: 890px;
     padding: 7px;
     border: 1px solid #e4e4e4;
+    margin-top: 10px;
 }
 
-.box_register_selector{
-    margin: 0 0 20px 0;
+.box_register_selector {  
+    margin-top: 20px;
 }
 
 .box_register_selectorlist {
-    display: block;
+    margin-top: 10px;
 }
 
 .box_register_selectorlist::after{
@@ -267,12 +295,13 @@ main {
 }
 
 .box_checkbox {
-    margin: 0 0 20px 0;
+    margin-top: 20px;
 }
 
 .box_register_check {
     display: inline-block;
     width: 105px;
+    margin-top: 10px;
 }
 
 .radio_register {
@@ -293,8 +322,7 @@ main {
 }
 
 .box_vertification {
-    font-size: 0px;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .box_vertification::after {
@@ -312,6 +340,15 @@ main {
     float: left;
 }
 
+.input_register_vertification {
+    font-size: 12px;
+    color: #000;
+    width: 890px;
+    padding: 7px;
+    border: 1px solid #e4e4e4;
+    margin-top: 5px;
+}
+
 .button_vertification_code {
     width: 130px;
     float: right;
@@ -320,9 +357,6 @@ main {
     font-size: 12px;
     color: #fff;
     padding: 7px;
-}
-
-.button_vertification_code:hover {
     cursor: pointer;
 }
 
@@ -333,25 +367,23 @@ main {
     resize: none;
     border: 1px solid #e4e4e4;
     padding: 7px;
+    margin-top: 10px;
 }
 
 .button_register_submit {
-    width: 906px;
+    width: 100%;
     padding: 9px;
     border: 1px solid #08a600;
     background-color: #4ec53d;
     font-size: 16px;
     color: #fff;
-}
-
-.button_register_submit:hover {
     cursor: pointer;
 }
 
 .box_list {
     border: 1px solid #e4e4e4;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .head_project {
@@ -359,11 +391,15 @@ main {
     font-size: 32px;
     color: #000;
     text-align: center;
-    margin: 16px 0;
+    margin-top: 16px;
+}
+
+.dl_project_dict {
+    margin-top: 20px;
 }
 
 .dl_project_dict > dt {
-    margin: 30px 0px 0px;
+    margin-top: 30px;
     color: #000;
 }
 
@@ -373,7 +409,7 @@ main {
 
 .dl_project_dict > dd {
     font-size: 12px;
-    margin: 10px 0 0 0;
+    margin-top: 10px;
     color: #000;
 }
 
@@ -386,11 +422,10 @@ main {
     color: #559bfa;
 }
 
-
 .ol_list_searchword {
     display: inline-block;
     border: 1px solid #e4e4e4;
-    margin: 0px;
+    margin-top: 20px;
     padding: 20px 100px 20px 20px;
 }
 
@@ -424,14 +459,18 @@ main {
 
 .ul_list_cookie {
     border: 1px solid #e4e4e4;
-    margin: 0px;
-    padding: 20px 20px 20px 40px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .li_list_cookie {
     font-size: 12px;
     color: #000;
-    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.li_list_cookie:first-child {
+    margin-top: 0;
 }
 
 .span_color_webtoon {
@@ -442,6 +481,7 @@ main {
 .span_color_expireday {
     font-size: 12px;
     color: #ec5336;
+    font-weight: normal;
 }
 
 .a_list_cookie {
@@ -450,11 +490,9 @@ main {
 }
 
 .ul_list_news {
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
     border: 1px solid #e4e4e4;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .li_list_news_withimg {
@@ -478,8 +516,6 @@ main {
 .img_list_news {
     float: left;
     margin-right: 15px;
-    width: 88px;
-    height: 88px;
 }
 
 .box_list_news_text {
@@ -499,11 +535,11 @@ main {
 }
 
 .ul_list_webtoon {
-    list-style: none;
-    margin: 0px;
     border: 1px solid #e4e4e4;
-    padding: 20px 0px 20px 20px;
+    /* padding: 20px 0px 20px 20px; */
+    padding: 20px 21px 0 0;
     white-space: normal;
+    margin-top: 20px;
 }
 
 
@@ -514,23 +550,17 @@ main {
 }
 
 .li_list_webtoon {
-    margin: 0px 20px 20px 0px;
+    margin: 0 0 20px 20px;
     float: left;
 }
 
 .a_list_webtoon {
+    display: inline-block;
     text-decoration: none;
 }
 
-.img_list_webtoon {
-    width: 285px;
-    height: 140px;
-    vertical-align: top;
-}
-
 .box_list_webtoon_title {
-    margin: 5px 0px;
-    
+    margin-top: 5px;
 }
 
 .strong_list_webtoon_title {
@@ -546,7 +576,7 @@ main {
 .p_list_webtoon_body {
     font-size: 12px;
     color: #000;
-    margin: 0px;
+    margin-top: 5px;
 }
 
 .p_list_webtoon_body:hover {
