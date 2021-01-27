@@ -31,7 +31,7 @@ img {
 }
 
 
-.body_wrap {
+.warp {
     min-width: 1080px;
 }
 
@@ -41,7 +41,7 @@ header {
     line-height: 120px;
 }
 
-.head {
+.header_text {
     color: #fff;
     width: 1000px;
     margin: auto;
@@ -56,11 +56,11 @@ main {
     margin: auto;
 }
 
-.nav_buttonlist {
+.button_list {
     display: block;
 }
 
-.nav_buttonlist::after {
+.button_list::after {
     clear: both;
     content: '';
     display: block;
@@ -75,7 +75,7 @@ main {
     float: left;
     line-height: 33px;
     text-decoration: none;
-    margin: 0 0 0 14px;
+    margin-left: 14px;
 }
 
 .box_nav:hover {
@@ -84,15 +84,15 @@ main {
 }
 
 .box_nav:first-child {
-    margin: 0px;
+    margin: 0;
 }
 
-.head2 {
+.content_title {
     font-size: 20px;
     color: #000;
     border-bottom: 1px solid #454545;
     line-height: 60px;
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 
 .box_element {
@@ -116,60 +116,60 @@ main {
     color: #000;
 }
 
-.table_kidclothessize_head {
+.kidclothessize_head {
     font-size: 14px;
     color: #000;
     font-weight: bold;
     text-align: left;
-    margin: 0px 0px 15px 0px;
 }
 
-.table_kidclothessize {
+.kidclothessize {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #e4e4e4;
     font-size: 12px;
     color: #555;
     text-align: center;
+    margin-top: 15px;
 }
 
-.table_kidclothessize > caption {
+.kidclothessize > caption {
     visibility: hidden;
-    height: 0px;
+    height: 0;
 }
 
-.table_kidclothessize > colgroup > .size_divide {
+.kidclothessize > colgroup > .size_divide {
     width: 174px;
 }
 
-.table_kidclothessize > colgroup > .size_content {
+.kidclothessize > colgroup > .size_content {
     width: 85px;
 }
 
-.table_kidclothessize > colgroup > .size_last_content {
+.kidclothessize > colgroup > .size_last_content {
     width: 85px;
 }
 
-.table_kidclothessize > thead > tr > th {
+.kidclothessize > thead > tr > th {
     background-color: #fbfbfb;
     border: 1px solid #e4e4e4;
     padding: 10px;
 }
 
-.table_kidclothessize > tbody > tr > th, .table_kidclothessize > tbody > tr > td {
+.kidclothessize > tbody > tr > th, .kidclothessize > tbody > tr > td {
     border: 1px solid #e4e4e4;
     padding: 10px;
 }
 
-.table_refund_head {
+.refund_head {
     font-size: 14px;
     color: #000;
     font-weight: bold;
     text-align: left;
-    margin: 30px 0px 15px; 
+    margin: 30px 0 15px; 
 }
 
-.table_refund {
+.refund {
     width: 100%;
     border-collapse: collapse;
     font-size: 12px;
@@ -177,20 +177,20 @@ main {
     text-align: center;
 }
 
-.table_refund > caption {
+.refund > caption {
     visibility: hidden;
-    height: 0px;
+    height: 0;
 }
 
-.table_refund > colgroup > .size_divide {
+.refund > colgroup > .size_divide {
     width: 340px;
 }
 
-.table_refund > colgroup > .size_content {
+.refund > colgroup > .size_content {
     width: 200px;
 }
 
-.table_refund > thead > tr > th {
+.refund > thead > tr > th {
     background-color: #fbfbfb;
     border-top: 2px solid #a5a5a5;
     border-bottom: 1px solid #e4e4e4;
@@ -198,24 +198,24 @@ main {
     font-weight: normal;
 }
 
-.table_refund > tbody > tr > th {
+.refund > tbody > tr > th {
     padding: 10px;
     font-weight: normal;
 }
 
-.table_refund > tbody > tr > td {
+.refund > tbody > tr > td {
     padding: 10px 70px 10px 10px;
     text-align: right;
 }
 
-.table_refund > tfoot > tr > th {
+.refund > tfoot > tr > th {
     font-weight: bold;
     background-color: #fbfbfb;
     border-top: 1px solid #a5a5a5;
     border-bottom: 1px solid #e4e4e4;
 }
 
-.table_refund > tfoot > tr > td {
+.refund > tfoot > tr > td {
     font-weight: bold;
     background-color: #fbfbfb;
     border-top: 1px solid #a5a5a5;
@@ -224,41 +224,42 @@ main {
     text-align: right;
 }
 
-.title_register {
+.register_title {
     font-size: 14px;
     color: #000;
     margin-top: 30px;
 }
 
-.title_register:first-child {
+.register_title:first-child {
     font-size: 14px;
     color: #000;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
-.form_register {
+.register_box {
     background-color: #fbfbfb;
     border: 1px solid #e4e4e4e4;
     padding: 15px;
+    margin-top: 15px;
 }
 
-.box_register {
+.register_element_box {
     margin-top: 20px;
 }
 
-.box_register:first-child {
-    margin-top: 0px;
+.register_element_box:first-child {
+    margin-top: 0;
 }
 
 
-.label_register {
+.register_element_label {
     display: block;
     font-size: 14px;
     color: #000;
     font-weight: bold;
 }
 
-.input_register {
+.register_textinput {
     font-size: 12px;
     color: #000;
     width: 890px;
@@ -267,21 +268,17 @@ main {
     margin-top: 10px;
 }
 
-.box_register_selector {  
-    margin-top: 20px;
-}
-
-.box_register_selectorlist {
+.register_birthselect_box {
     margin-top: 10px;
 }
 
-.box_register_selectorlist::after{
+.register_birthselect_box::after{
     clear: both;
     content: '';
     display: block;
 }
 
-.select_register {
+.register_birth {
     font-size: 12px;
     float: left;
     width: 296px;
@@ -290,48 +287,44 @@ main {
     margin-left: 9px;
 }
 
-.select_register:first-child{
-    margin-left: 0px;
+.register_birth:first-child{
+    margin-left: 0;
 }
 
-.box_checkbox {
-    margin-top: 20px;
-}
-
-.box_register_check {
+.register_check_box {
     display: inline-block;
     width: 105px;
     margin-top: 10px;
 }
 
-.radio_register {
+.register_gender_check {
     vertical-align: top;
-    margin: 0px;
+    margin: 0;
     color: #000;
 }
 
-.label_register_check {
+.register_hobby_name {
     vertical-align: top;
     font-size: 12px;
 }
 
-.checkbox_register {
+.register_hobby_check {
     vertical-align: top;
-    margin: 0px;
+    margin: 0;
     color: #000;
 }
 
-.box_vertification {
+.register_tel_box {
     margin-top: 10px;
 }
 
-.box_vertification::after {
+.register_tel_box::after {
     clear: both;
     content: '';
     display: block;
 }
 
-.input_register_tel {
+.register_tel_input {
     font-size: 12px;
     color: #000;
     padding: 7px;
@@ -340,7 +333,7 @@ main {
     float: left;
 }
 
-.input_register_vertification {
+.register_tel_vertification {
     font-size: 12px;
     color: #000;
     width: 890px;
@@ -349,7 +342,7 @@ main {
     margin-top: 5px;
 }
 
-.button_vertification_code {
+.register_vertification_get {
     width: 130px;
     float: right;
     border: 1px solid #08a600;
@@ -360,7 +353,7 @@ main {
     cursor: pointer;
 }
 
-.textarea_register {
+.register_introduction_write {
     font-size: 12px;
     width: 890px;
     height: 100px;
@@ -370,7 +363,7 @@ main {
     margin-top: 10px;
 }
 
-.button_register_submit {
+.register_introduction_submit {
     width: 100%;
     padding: 9px;
     border: 1px solid #08a600;
@@ -394,42 +387,42 @@ main {
     margin-top: 16px;
 }
 
-.dl_project_dict {
+.dict_project_list {
     margin-top: 20px;
 }
 
-.dl_project_dict > dt {
+.dict_project_list > dt {
     margin-top: 30px;
     color: #000;
 }
 
-.dl_project_dict > dt:first-child {
-    margin: 0px;
+.dict_project_list > dt:first-child {
+    margin: 0;
 }
 
-.dl_project_dict > dd {
+.dict_project_list > dd {
     font-size: 12px;
     margin-top: 10px;
     color: #000;
 }
 
-.strong_dt_name{
+.dict_project_name{
     font-size: 14px;
 }
 
-.span_dt_source {
+.dict_subtitle {
     font-size: 12px;
     color: #559bfa;
 }
 
-.ol_list_searchword {
+.searchword_raking {
     display: inline-block;
     border: 1px solid #e4e4e4;
     margin-top: 20px;
     padding: 20px 100px 20px 20px;
 }
 
-.li_list_searchword {
+.searchword_raking_list {
     display: block;
 }
 
@@ -445,7 +438,7 @@ main {
     line-height: 17px;
 }
 
-.a_list_searchword {
+.searchword_raking_name {
     font-size: 12px;
     color: #000;
     text-decoration: none;
@@ -453,137 +446,136 @@ main {
     line-height: 17px;
 }
 
-.a_list_searchword:hover {
+.searchword_raking_name:hover {
     text-decoration: underline;
 }
 
-.ul_list_cookie {
+.cookie_policy {
     border: 1px solid #e4e4e4;
     padding: 20px;
     margin-top: 20px;
 }
 
-.li_list_cookie {
+.cookie_policy_contents {
     font-size: 12px;
     color: #000;
     margin-top: 10px;
 }
 
-.li_list_cookie:first-child {
+.cookie_policy_contents:first-child {
     margin-top: 0;
 }
 
-.span_color_webtoon {
+.color_webtoon {
     font-size: 12px;
     color: #559bfa;
 }
 
-.span_color_expireday {
+.color_expireday {
     font-size: 12px;
     color: #ec5336;
     font-weight: normal;
 }
 
-.a_list_cookie {
+.cookie_clause {
     text-decoration: underline;
     color: #559bfa;
 }
 
-.ul_list_news {
+.news_preview {
     border: 1px solid #e4e4e4;
     padding: 20px;
     margin-top: 20px;
 }
 
-.li_list_news_withimg {
+.news_preview_img {
     border-top: 1px solid #e4e4e4;
     padding-top: 15px;
     margin-top: 15px;
 }
 
-.li_list_news_withimg::after {
+.news_preview_img::after {
     clear: both;
     content: '';
     display: block;
 }
 
-.li_list_news_withimg:first-child {
+.news_preview_img:first-child {
     border-top: none;
-    padding-top: 0px;
-    margin-top: 0px;
+    padding-top: 0;
+    margin-top: 0;
 }
 
-.img_list_news {
+.news_image_link {
     float: left;
     margin-right: 15px;
 }
 
-.box_list_news_text {
+.news_preview_text {
     width: 100%;
 }
 
-.a_list_news_title {
+.news_preview_title {
     font-size: 14px;
     color: #00c;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.p_list_news_body {
+.news_preview_substance {
     font-size: 12px;
     color: #000;
 }
 
-.ul_list_webtoon {
+.webtoon_preview {
     border: 1px solid #e4e4e4;
-    /* padding: 20px 0px 20px 20px; */
     padding: 20px 21px 0 0;
     white-space: normal;
     margin-top: 20px;
 }
 
 
-.ul_list_webtoon::after {
+.webtoon_preview::after {
     clear: both;
     content: '';
     display: block;
 }
 
-.li_list_webtoon {
+.webtoon_preview_content {
     margin: 0 0 20px 20px;
     float: left;
 }
 
-.a_list_webtoon {
+.webtoon_preview_link {
     display: inline-block;
     text-decoration: none;
 }
 
-.box_list_webtoon_title {
+.webtoon_preview_titlebox {
     margin-top: 5px;
 }
 
-.strong_list_webtoon_title {
+.webtoon_preview_title {
     font-size: 14px;
     color: #000;
     vertical-align: middle;
 }
 
-.strong_list_webtoon_title:hover {
+.webtoon_preview_title:hover {
     text-decoration: underline;
 }
 
-.p_list_webtoon_body {
+.webtoon_preview_substance {
     font-size: 12px;
     color: #000;
     margin-top: 5px;
 }
 
-.p_list_webtoon_body:hover {
+.webtoon_preview_substance:hover {
     text-decoration: underline;
 }
 
-.span_tag_cuttoon {
+.webtoon_preview_cuttoontag {
     border: 1px solid #71b036;
     background-color: #80c83d;
     font-size: 10px;
@@ -593,7 +585,7 @@ main {
     vertical-align: middle;
 }
 
-.span_tag_smarttoon {
+.webtoon_preview_smarttoontag {
     border: 1px solid #df4e28;
     background-color: #ec5336;
     font-size: 10px;

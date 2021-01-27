@@ -10,24 +10,24 @@
 </head>
 
 <body>
-    <div class="body_wrap">
+    <div class="wrap">
         <header>
-            <h1 class="head">포트폴리오</h1>
+            <h1 class="header_text">포트폴리오</h1>
         </header>
         <main>
-            <nav class="nav_buttonlist">
+            <nav class="button_list">
                 <a href="#box_element_table" class="box_nav">테이블 요소</a>
                 <a href="#box_element_form" class="box_nav">폼 요소</a>
                 <a href="#box_element_list" class="box_nav">리스트 요소</a>
             </nav>
-            <h2 class="head2">구성 요소</h2>
+            <h2 class="content_title">구성 요소</h2>
             <section id="box_element_table" class="box_element">
                 <h3 class="box_element_head">
                     테이블 요소
                 </h3>
                 <div class="box_element_body">
-                    <h4 class="table_kidclothessize_head">아동용 사이즈</h4>
-                    <table class="table_kidclothessize">
+                    <h4 class="kidclothessize_head">아동용 사이즈</h4>
+                    <table class="kidclothessize">
                         <caption>아동용 사이즈 기준표</caption>
                         <colgroup>
                             <col class="size_divide" />
@@ -220,8 +220,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <h4 class="table_refund_head">환불 가능 금액 조회</h4>
-                    <table class="table_refund">
+                    <h4 class="refund_head">환불 가능 금액 조회</h4>
+                    <table class="refund">
                         <caption>환불 가능 금액 조회</caption>
                         <colgroup>
                             <col class="size_divide" />
@@ -311,144 +311,143 @@
                     폼 요소
                 </h2>
                 <div class="box_element_body">
-                    <h3 class="title_register">회원가입</h3>
-                    <div class="form_register">
+                    <h3 class="register_title">회원가입</h3>
+                    <div class="register_box">
                         <form>
-                            <div class="box_register">
-                                <label for="login_id" class="label_register">
+                            <div class="register_element_box">
+                                <label for="login_id" class="register_element_label">
                                     아이디
                                 </label>
-                                <input type="text" name="id" id="login_id" class="input_register">
+                                <input type="text" name="id" id="login_id" class="register_textinput">
                             </div>
-                            <div class="box_register">
-                                <label for="login_password" class="label_register">
+                            <div class="register_element_box">
+                                <label for="login_password" class="register_element_label">
                                     비밀번호
                                 </label>
-                                <input type="password" name="password" id="login_password" class="input_register">
+                                <input type="password" name="password" id="login_password" class="register_textinput">
                             </div>
-                            <div class="box_register">
-                                <label for="login_name" class="label_register">
+                            <div class="register_element_box">
+                                <label for="login_name" class="register_element_label">
                                     이름
                                 </label>
-                                <input type="text" name="name" id="login_name" class="input_register">
+                                <input type="text" name="name" id="login_name" class="register_textinput">
                             </div>
-                            <div class="box_register_selector">
-                                <label for="birth" class="label_register">
+                            <div class="register_element_box">
+                                <label for="birth" class="register_element_label">
                                     생년월일
                                 </label>
-                                <div class="box_register_selectorlist">
-                                    <select name="birth_year" id="birth" class="select_register">
+                                <div class="register_birthselect_box">
+                                    <select name="birth_year" id="birth" class="register_birth">
                                         <option value="" disabled selected>년도</option>
                                     </select>
-                                    <select name="birth_month" class="select_register" title="웛">
+                                    <select name="birth_month" class="register_birth" title="웛">
                                         <option value="" disabled selected>월</option>
                                     </select>
-                                    <select name="birth_day" class="select_register" title="일">
+                                    <select name="birth_day" class="register_birth" title="일">
                                         <option value="" disabled selected>일</option>
                                     </select>
                                 </div>
                             </div>
-                            <div class="box_checkbox">
-                                <strong class="label_register">
+                            <div class="register_element_box">
+                                <strong class="register_element_label">
                                     성별
                                 </strong>
-                                <div class="box_register_check">
-                                    <input type="radio" name="gender" id="birth_man" class="radio_register">
-                                    <label for="birth_man" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="radio" name="gender" id="birth_man" class="register_gender_check">
+                                    <label for="birth_man" class="register_hobby_name">
                                         남자
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="radio" name="gender" id="birth_woman" class="radio_register">
-                                    <label for="birth_woman" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="radio" name="gender" id="birth_woman" class="register_gender_check">
+                                    <label for="birth_woman" class="register_hobby_name">
                                         여자
                                     </label>
                                 </div>
                             </div>
-                            <div class="box_register">
-                                <label for="email" class="label_register">
+                            <div class="register_element_box">
+                                <label for="email" class="register_element_label">
                                     이메일
                                 </label>
-                                <input type="email" name="email" id="email" class="input_register"
+                                <input type="email" name="email" id="email" class="register_textinput"
                                     placeholder="이메일 주소에 '@'를 포함해주세요.">
                             </div>
-                            <div class="box_register">
-                                <label for="tel" class="label_register">
+                            <div class="register_element_box">
+                                <label for="tel" class="register_element_label">
                                     휴대전화
                                 </label>
-                                <div class="box_vertification">
-                                    <input type="tel" name="tel" id="tel" class="input_register_tel"
+                                <div class="register_tel_box">
+                                    <input type="tel" name="tel" id="tel" class="register_tel_input"
                                         placeholder="숫자만 입력해주세요.">
-                                    <button type='button' class="button_vertification_code">인증 번호 받기</button>
+                                    <button type='button' class="register_vertification_get">인증 번호 받기</button>
                                 </div>
-                                <input type="tel" name="tel_vertification" class="input_register_vertification"
+                                <input type="tel" name="tel_vertification" class="register_tel_vertification"
                                     placeholder="인증번호를 입력해주세요." title="인증번호 입력">
                             </div>
-                            <div class="box_checkbox">
-                                <strong class="label_register">
+                            <div class="register_element_box">
+                                <strong class="register_element_label">
                                     취미
                                 </strong>
-                                <div class="box_register_check">
-                                    <label for="hobby_health" class="label_register_check">
-                                        <input type="checkbox" name="hobby" id="hobby_health" class="checkbox_register">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_health" class="register_hobby_check">
+                                    <label for="hobby_health" class="register_hobby_name">
                                         운동
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="checkbox" name="hobby" id="hobby_cook" class="checkbox_register">
-                                    <label for="hobby_cook" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_cook" class="register_hobby_check">
+                                    <label for="hobby_cook" class="register_hobby_name">
                                         요리
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="checkbox" name="hobby" id="hobby_travel" class="checkbox_register">
-                                    <label for="hobby_travel" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_travel" class="register_hobby_check">
+                                    <label for="hobby_travel" class="register_hobby_name">
                                         여행
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="checkbox" name="hobby" id="hobby_game" class="checkbox_register">
-                                    <label for="hobby_game" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_game" class="register_hobby_check">
+                                    <label for="hobby_game" class="register_hobby_name">
                                         게임
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="checkbox" name="hobby" id="hobby_computer" class="checkbox_register">
-                                    <label for="hobby_computer" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_computer" class="register_hobby_check">
+                                    <label for="hobby_computer" class="register_hobby_name">
                                         컴퓨터
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="checkbox" name="hobby" id="hobby_music" class="checkbox_register">
-                                    <label for="hobby_music" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_music" class="register_hobby_check">
+                                    <label for="hobby_music" class="register_hobby_name">
                                         음악
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="checkbox" name="hobby" id="hobby_movie" class="checkbox_register">
-                                    <label for="hobby_movie" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_movie" class="register_hobby_check">
+                                    <label for="hobby_movie" class="register_hobby_name">
                                         영화
                                     </label>
                                 </div>
-                                <div class="box_register_check">
-                                    <input type="checkbox" name="hobby" id="hobby_book" class="checkbox_register">
-                                    <label for="hobby_book" class="label_register_check">
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_book" class="register_hobby_check">
+                                    <label for="hobby_book" class="register_hobby_name">
                                         독서
                                     </label>
                                 </div>
                             </div>
-                            <div class="box_register">
-                                <label for="introduce" class="label_register">
+                            <div class="register_element_box">
+                                <label for="introduce" class="register_element_label">
                                     가입인사
                                 </label>
-                                <textarea name="introduce" id="introduce" class="textarea_register" cols="3"
+                                <textarea name="introduce" id="introduce" class="register_introduction_write" cols="3"
                                     rows="12"></textarea>
                             </div>
-                            <button type="submit" class="button_register_submit">
+                            <button type="submit" class="register_introduction_submit">
                                 가입하기
                             </button>
                         </form>
-                    </div>
                 </div>
             </section>
             <section id="box_element_list" class="box_element">
@@ -456,12 +455,12 @@
                     리스트 요소
                 </h3>
                 <div class="box_element_body">
-                    <h4 class="title_register">'프로젝트' 사전 검색 결과</h4>
+                    <h4 class="register_title">'프로젝트' 사전 검색 결과</h4>
                     <div class="box_list">
                         <strong class="head_project">프로젝트</strong>
-                        <dl class="dl_project_dict">
+                        <dl class="dict_project_list">
                             <dt>
-                                <strong class="strong_dt_name">프로젝트</strong> <span class="span_dt_source">영양학
+                                <strong class="dict_project_name">프로젝트</strong> <span class="dict_subtitle">영양학
                                     사전</span>
                             </dt>
                             <dd>
@@ -470,7 +469,7 @@
                                 계획을 위한 학습 활동, 실행계획 등을 가리킨다.
                             </dd>
                             <dt>
-                                <strong class="strong_dt_name">프로젝트</strong> <span class="span_dt_source">Basic 중학생을
+                                <strong class="dict_project_name">프로젝트</strong> <span class="dict_subtitle">Basic 중학생을
                                     위한
                                     기술, 가정 용어사전 </span>
                             </dt>
@@ -481,90 +480,90 @@
                             </dd>
                         </dl>
                     </div>
-                    <h4 class="title_register">실시간 검색어</h4>
-                    <ol class="ol_list_searchword">
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">1</span><a href="" class="a_list_searchword">입추</a>
+                    <h4 class="register_title">실시간 검색어</h4>
+                    <ol class="searchword_raking">
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">1</span><a href="" class="searchword_raking_name">입추</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">2</span><a href="" class="a_list_searchword">런닝맨 유재석</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">2</span><a href="" class="searchword_raking_name">런닝맨 유재석</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">3</span><a href="" class="a_list_searchword">런닝맨</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">3</span><a href="" class="searchword_raking_name">런닝맨</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">4</span><a href="" class="a_list_searchword">소나기</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">4</span><a href="" class="searchword_raking_name">소나기</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">5</span><a href="" class="a_list_searchword">주간 날씨</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">5</span><a href="" class="searchword_raking_name">주간 날씨</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">6</span><a href="" class="a_list_searchword">깔라만시</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">6</span><a href="" class="searchword_raking_name">깔라만시</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">7</span><a href="" class="a_list_searchword">내 아이디는 강남미인</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">7</span><a href="" class="searchword_raking_name">내 아이디는 강남미인</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">8</span><a href="" class="a_list_searchword">차은우</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">8</span><a href="" class="searchword_raking_name">차은우</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">9</span><a href="" class="a_list_searchword">한국사능력검정시험</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">9</span><a href="" class="searchword_raking_name">한국사능력검정시험</a>
                         </li>
-                        <li class="li_list_searchword">
-                            <span class="box_number_line">10</span><a href="" class="a_list_searchword">맛있는 녀석들</a>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">10</span><a href="" class="searchword_raking_name">맛있는 녀석들</a>
                         </li>
                     </ol>
-                    <h4 class="title_register">쿠키 이용안내</h4>
-                    <ul class="ul_list_cookie">
-                        <li class="li_list_cookie">
-                            <strong><span class="span_color_webtoon">웹툰 작품</span>은 쿠키를 사용하여 대여/구매 하실 수
+                    <h4 class="register_title">쿠키 이용안내</h4>
+                    <ul class="cookie_policy">
+                        <li class="cookie_policy_contents">
+                            <strong><span class="color_webtoon">웹툰 작품</span>은 쿠키를 사용하여 대여/구매 하실 수
                                 있습니다.
                             </strong>
                         </li>
-                        <li class="li_list_cookie">
-                            쿠키 그매시 지급되는 보너스 쿠키의 수량은 변경될 수 있으며, <strong class="span_color_expireday">유효 기간은 지급 후
+                        <li class="cookie_policy_contents">
+                            쿠키 그매시 지급되는 보너스 쿠키의 수량은 변경될 수 있으며, <strong class="color_expireday">유효 기간은 지급 후
                                 90일</strong>입니다.
                         </li>
-                        <li class="li_list_cookie">
-                            구매 후 7일 이내, 사용하지 않은 쿠키 패키지는 <a href="" class="a_list_cookie">구매내역</a>에서 직접 구매 취소할 수
+                        <li class="cookie_policy_contents">
+                            구매 후 7일 이내, 사용하지 않은 쿠키 패키지는 <a href="" class="cookie_clause">구매내역</a>에서 직접 구매 취소할 수
                             있습니다.
                         </li>
-                        <li class="li_list_cookie">
+                        <li class="cookie_policy_contents">
                             일부 사용 후 잔여 쿠키에 대한 구매 취소는 고객센터를 통해 가능하며, 쿠키 구매 시 지급된 보너스 쿠키를 사용한 경우에는 해당 분량을 제외하고
                             환불됩니다.
                         </li>
-                        <li class="li_list_cookie">
+                        <li class="cookie_policy_contents">
                             쿠키 구매 또는 사용 전 이용약관 동의가 필요합니다.<br>
-                            <a href="" class="a_list_cookie">쿠키 이용약관</a>
+                            <a href="" class="cookie_clause">쿠키 이용약관</a>
                         </li>
                     </ul>
-                    <h4 class="title_register">뉴스</h4>
-                    <ul class="ul_list_news">
-                        <li class="li_list_news_withimg">
-                            <a href=""><img src="image/thumbnail1.jpg" alt="news" width="88" height="88" class="img_list_news"></a>
-                            <div class="box_list_news_text">
-                                <a href="" class="a_list_news_title">[날씨] 내일도 35도 안팎 폭염・내륙 소나기⋯습도 높아 후텁지근</a>
-                                <p class="p_list_news_body">
+                    <h4 class="register_title">뉴스</h4>
+                    <ul class="news_preview">
+                        <li class="news_preview_img">
+                            <a href="" class="news_image_link"><img src="image/thumbnail1.jpg" alt="news" width="88" height="88"></a>
+                            <div class="news_preview_text">
+                                <a href="" class="news_preview_title">[날씨] 내일도 35도 안팎 폭염・내륙 소나기⋯습도 높아 후텁지근</a>
+                                <p class="news_preview_substance">
                                     오늘은 입추 절기지만 가을은 아직 멀리있는 것 같습니다. 일부 내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리진 못했는데요.
                                     동해안을 제외한 전국 대부분 지방에 폭염 특보가 이어지는 가운데 내일도 한낮에 서울과 대전 35도, 광주와 대구가 36도까지 오를 것으로
                                     예상됩니다. 내일도 대기가 불안정해지 면서 오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.
                                 </p>
                             </div>
                         </li>
-                        <li class="li_list_news_withimg">
-                            <div class="box_list_news_text">
-                                <a href="" class="a_list_news_title">[펫카드] 강아지 중성화가 필요한 이유</a>
-                                <p class="p_list_news_body">
+                        <li class="news_preview_img">
+                            <div class="news_preview_text">
+                                <a href="" class="news_preview_title">[펫카드] 강아지 중성화가 필요한 이유</a>
+                                <p class="news_preview_substance">
                                     (서울=뉴스1) 최서윤 기자,방은영 디자이너 = 강아지 중성화 수술을 놓고 찬반이 팽팽하게 엇갈린다. 많은 사람들은 사람들과 공존하려면
                                     개체수
                                     조절을 위해 필요하다고 주장한 다. 그러나 어떤 사람들은 인위적인 수술은 안된다며 반대한다. </p>
                             </div>
                         </li>
-                        <li class="li_list_news_withimg">
-                            <a href=""><img src="image/thumbnail1.jpg" alt="news" width="88" height="88" class="img_list_news"></a>
-                            <div class="box_list_news_text">
-                                <a href="" class="a_list_news_title">다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어 </a>
-                                <p class="p_list_news_body">
+                        <li class="news_preview_img">
+                            <a href=""  class="news_image_link"><img src="image/thumbnail1.jpg" alt="news" width="88" height="88"></a>
+                            <div class="news_preview_text">
+                                <a href="" class="news_preview_title">다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어 </a>
+                                <p class="news_preview_substance">
                                     복숭아가 제철이다. 여름 복숭아는 다양한 건강 효과를 낸다. 복숭아에는 포도당, 과당, 수분이 풍부하고 유기산(산성을 띠는 물질로 식품에서 신맛을
                                     냄)이 0. 5% 정도로 적게 들어 단맛이 강하다. 복숭아의 열량은 100g당 36kcal다. 복숭아 한 개에 약 100kcal 정도다. 포만감에 비해
                                     열량이 적은 편이어서 다이어트를 하는 사람에게도 좋다. 비타민이 많아서 피로 해소에 도움이 된다.
@@ -572,73 +571,73 @@
                             </div>
                         </li>
                     </ul>
-                    <h4 class="title_register">웹툰</h4>
-                    <ul class="ul_list_webtoon">
-                        <li class="li_list_webtoon">
-                            <a href="" class="a_list_webtoon">
+                    <h4 class="register_title">웹툰</h4>
+                    <ul class="webtoon_preview">
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
                                 <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
-                                <div class="box_list_webtoon_title">
-                                    <strong class="strong_list_webtoon_title">하루 3컷</strong>
+                                <div class="webtoon_preview_titlebox">
+                                    <strong class="webtoon_preview_title">하루 3컷</strong>
                                 </div>
-                                <p class="p_list_webtoon_body">
+                                <p class="webtoon_preview_substance">
                                     17화 편리하게 피곤하게
                                 </p>
                             </a>
                         </li>
-                        <li class="li_list_webtoon">
-                            <a href="" class="a_list_webtoon">
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
                                 <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
-                                <div class="box_list_webtoon_title">
-                                    <span class="span_tag_cuttoon">컷툰</span>
-                                    <strong class="strong_list_webtoon_title">유미의 세포들</strong>
+                                <div class="webtoon_preview_titlebox">
+                                    <span class="webtoon_preview_cuttoontag">컷툰</span>
+                                    <strong class="webtoon_preview_title">유미의 세포들</strong>
                                 </div>
-                                <p class="p_list_webtoon_body">
+                                <p class="webtoon_preview_substance">
                                     326화 미래에서 온 텔레파시
                                 </p>
                             </a>
                         </li>
-                        <li class="li_list_webtoon">
-                            <a href="" class="a_list_webtoon">
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
                                 <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
-                                <div class="box_list_webtoon_title">
-                                    <strong class="strong_list_webtoon_title">이말년씨리즈 2018</strong>
+                                <div class="webtoon_preview_titlebox">
+                                    <strong class="webtoon_preview_title">이말년씨리즈 2018</strong>
                                 </div>
-                                <p class="p_list_webtoon_body">
+                                <p class="webtoon_preview_substance">
                                     58화 공포의 떡볶이
                                 </p>
                             </a>
                         </li>
-                        <li class="li_list_webtoon">
-                            <a href="" class="a_list_webtoon">
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
                                 <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
-                                <div class="box_list_webtoon_title">
-                                    <span class="span_tag_smarttoon">스마트툰</span>
-                                    <strong class="strong_list_webtoon_title">덴마</strong>
+                                <div class="webtoon_preview_titlebox">
+                                    <span class="webtoon_preview_smarttoontag">스마트툰</span>
+                                    <strong class="webtoon_preview_title">덴마</strong>
                                 </div>
-                                <p class="p_list_webtoon_body">
+                                <p class="webtoon_preview_substance">
                                     195화 1.다이크(195)
                                 </p>
                             </a>
                         </li>
-                        <li class="li_list_webtoon">
-                            <a href="" class="a_list_webtoon">
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
                                 <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
-                                <div class="box_list_webtoon_title">
-                                    <span class="span_tag_cuttoon">컷툰</span>
-                                    <strong class="strong_list_webtoon_title">1인용 기분</strong>
+                                <div class="webtoon_preview_titlebox">
+                                    <span class="webtoon_preview_cuttoontag">컷툰</span>
+                                    <strong class="webtoon_preview_title">1인용 기분</strong>
                                 </div>
-                                <p class="p_list_webtoon_body">
+                                <p class="webtoon_preview_substance">
                                     20화 평가
                                 </p>
                             </a>
                         </li>
-                        <li class="li_list_webtoon">
-                            <a href="" class="a_list_webtoon">
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
                                 <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
-                                <div class="box_list_webtoon_title">
-                                    <strong class="strong_list_webtoon_title">찬란하지 않아도 괜찮아</strong>
+                                <div class="webtoon_preview_titlebox">
+                                    <strong class="webtoon_preview_title">찬란하지 않아도 괜찮아</strong>
                                 </div>
-                                <p class="p_list_webtoon_body">
+                                <p class="webtoon_preview_substance">
                                     56화 숨길 수 없어요.
                                 </p>
                             </a>
