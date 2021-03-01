@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <title>
+        포트폴리오
+    </title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1 class="header_text">포트폴리오</h1>
+        </header>
+        <main>
+            <nav class="button_list">
+                <a href="#box_element_table" class="box_nav">테이블 요소</a>
+                <a href="#box_element_form" class="box_nav">폼 요소</a>
+                <a href="#box_element_list" class="box_nav">리스트 요소</a>
+            </nav>
+            <h2 class="content_title">구성 요소</h2>
+            <section id="box_element_table" class="box_element">
+                <h3 class="box_element_head">
+                    테이블 요소
+                </h3>
+                <div class="box_element_body">
+                    <h4 class="kidclothessize_head">아동용 사이즈</h4>
+                    <table class="kidclothessize">
+                        <caption>아동용 사이즈 기준표</caption>
+                        <colgroup>
+                            <col class="size_divide" />
+                            <col span="7" class="size_content" />
+                            <col />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="colgroup" colspan="2">
+                                    구분
+                                </th>
+                                <th scope="colgroup" colspan="2">
+                                    Small
+                                </th>
+                                <th scope="colgroup" colspan="2">
+                                    Medium
+                                </th>
+                                <th scope="colgroup" colspan="2">
+                                    Large
+                                </th>
+                                <th scope="col">
+                                    X-Large
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="rowgroup" rowspan="3">
+                                    미국 남아<br>
+                                    [Boys 2-7]
+                                </th>
+                                <th scope="row">
+                                    사이즈
+                                </th>
+                                <td>
+                                    2T
+                                </td>
+                                <td>
+                                    3T
+                                </td>
+                                <td>
+                                    4T
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td>
+                                    5
+                                </td>
+                                <td>
+                                    6
+                                </td>
+                                <td>
+                                    7
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    키
+                                </th>
+                                <td>
+                                    84-91
+                                </td>
+                                <td>
+                                    91-99
+                                </td>
+                                <td>
+                                    91-99
+                                </td>
+                                <td>
+                                    99-107
+                                </td>
+                                <td>
+                                    107-114
+                                </td>
+                                <td>
+                                    114-122
+                                </td>
+                                <td>
+                                    122-130
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    몸무게
+                                </th>
+                                <td>
+                                    13-15
+                                </td>
+                                <td>
+                                    14-15
+                                </td>
+                                <td>
+                                    13-15
+                                </td>
+                                <td>
+                                    14-15
+                                </td>
+                                <td>
+                                    19-21
+                                </td>
+                                <td>
+                                    20-23
+                                </td>
+                                <td>
+                                    23-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="rowgroup" rowspan="3">
+                                    미국 여아<br>
+                                    [Girls 2-6X]
+                                </th>
+                                <th>
+                                    사이즈
+                                </th>
+                                <td>
+                                    2T
+                                </td>
+                                <td>
+                                    3T
+                                </td>
+                                <td>
+                                    4T
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td>
+                                    5
+                                </td>
+                                <td>
+                                    6
+                                </td>
+                                <td>
+                                    6X
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    키
+                                </th>
+                                <td>
+                                    84-91
+                                </td>
+                                <td>
+                                    91-99
+                                </td>
+                                <td>
+                                    91-99
+                                </td>
+                                <td>
+                                    99-107
+                                </td>
+                                <td>
+                                    107-114
+                                </td>
+                                <td>
+                                    114-122
+                                </td>
+                                <td>
+                                    122-130
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    몸무게
+                                </th>
+                                <td>
+                                    13-15
+                                </td>
+                                <td>
+                                    14-15
+                                </td>
+                                <td>
+                                    13-15
+                                </td>
+                                <td>
+                                    14-15
+                                </td>
+                                <td>
+                                    19-21
+                                </td>
+                                <td>
+                                    20-23
+                                </td>
+                                <td>
+                                    23-25
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4 class="refund_head">환불 가능 금액 조회</h4>
+                    <table class="refund">
+                        <caption>환불 가능 금액 조회</caption>
+                        <colgroup>
+                            <col class="size_divide" />
+                            <col span="3" class="size_content" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    구분
+                                </th>
+                                <th scope="col">
+                                    환불가능액
+                                </th>
+                                <th scope="col">
+                                    수수료
+                                </th>
+                                <th scope="col">
+                                    총 환불금액
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    게임 보상 금액
+                                </th>
+                                <td>
+                                    100,000원
+                                </td>
+                                <td>
+                                    1,000원
+                                </td>
+                                <td>
+                                    99,000원
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    월정액제 보상금액
+                                </th>
+                                <td>
+                                    10,000원
+                                </td>
+                                <td>
+                                    5,000원
+                                </td>
+                                <td>
+                                    5,000원
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    코인
+                                </th>
+                                <td>
+                                    9,000원
+                                </td>
+                                <td>
+                                    500원
+                                </td>
+                                <td>
+                                    8,500원
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th scope="row">
+                                    총합계
+                                </th>
+                                <td>
+                                    119,000원
+                                </td>
+                                <td>
+                                    6,500원
+                                </td>
+                                <td>
+                                    112,500원
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <section id="box_element_form" class="box_element">
+                <h2 class="box_element_head">
+                    폼 요소
+                </h2>
+                <div class="box_element_body">
+                    <h3 class="register_title">회원가입</h3>
+                    <div class="register_box">
+                        <form>
+                            <div class="register_element_box">
+                                <label for="login_id" class="register_element_label">
+                                    아이디
+                                </label>
+                                <input type="text" name="id" id="login_id" class="register_textinput">
+                            </div>
+                            <div class="register_element_box">
+                                <label for="login_password" class="register_element_label">
+                                    비밀번호
+                                </label>
+                                <input type="password" name="password" id="login_password" class="register_textinput">
+                            </div>
+                            <div class="register_element_box">
+                                <label for="login_name" class="register_element_label">
+                                    이름
+                                </label>
+                                <input type="text" name="name" id="login_name" class="register_textinput">
+                            </div>
+                            <div class="register_element_box">
+                                <label for="birth" class="register_element_label">
+                                    생년월일
+                                </label>
+                                <div class="register_birthselect_box">
+                                    <select name="birth_year" id="birth" class="register_birth">
+                                        <option value="" disabled selected>년도</option>
+                                    </select>
+                                    <select name="birth_month" class="register_birth" title="웛">
+                                        <option value="" disabled selected>월</option>
+                                    </select>
+                                    <select name="birth_day" class="register_birth" title="일">
+                                        <option value="" disabled selected>일</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="register_element_box">
+                                <strong class="register_element_label">
+                                    성별
+                                </strong>
+                                <div class="register_check_box">
+                                    <input type="radio" name="gender" id="birth_man" class="register_gender_check">
+                                    <label for="birth_man" class="register_hobby_name">
+                                        남자
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="radio" name="gender" id="birth_woman" class="register_gender_check">
+                                    <label for="birth_woman" class="register_hobby_name">
+                                        여자
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="register_element_box">
+                                <label for="email" class="register_element_label">
+                                    이메일
+                                </label>
+                                <input type="email" name="email" id="email" class="register_textinput"
+                                    placeholder="이메일 주소에 '@'를 포함해주세요.">
+                            </div>
+                            <div class="register_element_box">
+                                <label for="tel" class="register_element_label">
+                                    휴대전화
+                                </label>
+                                <div class="register_tel_box">
+                                    <input type="tel" name="tel" id="tel" class="register_tel_input"
+                                        placeholder="숫자만 입력해주세요.">
+                                    <button type='button' class="register_vertification_get">인증 번호 받기</button>
+                                </div>
+                                <input type="tel" name="tel_vertification" class="register_tel_vertification"
+                                    placeholder="인증번호를 입력해주세요." title="인증번호 입력">
+                            </div>
+                            <div class="register_element_box">
+                                <strong class="register_element_label">
+                                    취미
+                                </strong>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_health" class="register_hobby_check">
+                                    <label for="hobby_health" class="register_hobby_name">
+                                        운동
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_cook" class="register_hobby_check">
+                                    <label for="hobby_cook" class="register_hobby_name">
+                                        요리
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_travel" class="register_hobby_check">
+                                    <label for="hobby_travel" class="register_hobby_name">
+                                        여행
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_game" class="register_hobby_check">
+                                    <label for="hobby_game" class="register_hobby_name">
+                                        게임
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_computer" class="register_hobby_check">
+                                    <label for="hobby_computer" class="register_hobby_name">
+                                        컴퓨터
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_music" class="register_hobby_check">
+                                    <label for="hobby_music" class="register_hobby_name">
+                                        음악
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_movie" class="register_hobby_check">
+                                    <label for="hobby_movie" class="register_hobby_name">
+                                        영화
+                                    </label>
+                                </div>
+                                <div class="register_check_box">
+                                    <input type="checkbox" name="hobby" id="hobby_book" class="register_hobby_check">
+                                    <label for="hobby_book" class="register_hobby_name">
+                                        독서
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="register_element_box">
+                                <label for="introduce" class="register_element_label">
+                                    가입인사
+                                </label>
+                                <textarea name="introduce" id="introduce" class="register_introduction_write" cols="3"
+                                    rows="12"></textarea>
+                            </div>
+                            <button type="submit" class="register_introduction_submit">
+                                가입하기
+                            </button>
+                        </form>
+                </div>
+            </section>
+            <section id="box_element_list" class="box_element">
+                <h3 class="box_element_head">
+                    리스트 요소
+                </h3>
+                <div class="box_element_body">
+                    <h4 class="register_title">'프로젝트' 사전 검색 결과</h4>
+                    <div class="box_list">
+                        <strong class="head_project">프로젝트</strong>
+                        <dl class="dict_project_list">
+                            <dt>
+                                <strong class="dict_project_name">프로젝트</strong> <span class="dict_subtitle">영양학
+                                    사전</span>
+                            </dt>
+                            <dd>
+                                연구나 새로운 사업의 개발을 위한 유기적이고 조직적인 계획. 원자력 개발이나 우주개발 등은 대형 프로젝트를 조직하여 이루어진다. 일반적으로는 특정한
+                                목표,
+                                계획을 위한 학습 활동, 실행계획 등을 가리킨다.
+                            </dd>
+                            <dt>
+                                <strong class="dict_project_name">프로젝트</strong> <span class="dict_subtitle">Basic 중학생을
+                                    위한
+                                    기술, 가정 용어사전 </span>
+                            </dt>
+                            <dd>
+                                어떤 특정한 목적 달성을 위하여 실시되는 시스템 개발, 프로그램 설계, 연구 개발 계획 혹은 건설 공사 등과 같이 한 번에 그치는 성격을 갖는 단위
+                                작업이나
+                                사업.
+                            </dd>
+                        </dl>
+                    </div>
+                    <h4 class="register_title">실시간 검색어</h4>
+                    <ol class="searchword_raking">
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">1</span><a href="" class="searchword_raking_name">입추</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">2</span><a href="" class="searchword_raking_name">런닝맨 유재석</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">3</span><a href="" class="searchword_raking_name">런닝맨</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">4</span><a href="" class="searchword_raking_name">소나기</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">5</span><a href="" class="searchword_raking_name">주간 날씨</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">6</span><a href="" class="searchword_raking_name">깔라만시</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">7</span><a href="" class="searchword_raking_name">내 아이디는 강남미인</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">8</span><a href="" class="searchword_raking_name">차은우</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">9</span><a href="" class="searchword_raking_name">한국사능력검정시험</a>
+                        </li>
+                        <li class="searchword_raking_list">
+                            <span class="box_number_line">10</span><a href="" class="searchword_raking_name">맛있는 녀석들</a>
+                        </li>
+                    </ol>
+                    <h4 class="register_title">쿠키 이용안내</h4>
+                    <ul class="cookie_policy">
+                        <li class="cookie_policy_contents">
+                            <strong><span class="color_webtoon">웹툰 작품</span>은 쿠키를 사용하여 대여/구매 하실 수
+                                있습니다.
+                            </strong>
+                        </li>
+                        <li class="cookie_policy_contents">
+                            쿠키 그매시 지급되는 보너스 쿠키의 수량은 변경될 수 있으며, <strong class="color_expireday">유효 기간은 지급 후
+                                90일</strong>입니다.
+                        </li>
+                        <li class="cookie_policy_contents">
+                            구매 후 7일 이내, 사용하지 않은 쿠키 패키지는 <a href="" class="cookie_clause">구매내역</a>에서 직접 구매 취소할 수
+                            있습니다.
+                        </li>
+                        <li class="cookie_policy_contents">
+                            일부 사용 후 잔여 쿠키에 대한 구매 취소는 고객센터를 통해 가능하며, 쿠키 구매 시 지급된 보너스 쿠키를 사용한 경우에는 해당 분량을 제외하고
+                            환불됩니다.
+                        </li>
+                        <li class="cookie_policy_contents">
+                            쿠키 구매 또는 사용 전 이용약관 동의가 필요합니다.<br>
+                            <a href="" class="cookie_clause">쿠키 이용약관</a>
+                        </li>
+                    </ul>
+                    <h4 class="register_title">뉴스</h4>
+                    <ul class="news_preview">
+                        <li class="news_preview_img">
+                            <a href="" class="news_image_link"><img src="image/thumbnail1.jpg" alt="news" width="88" height="88"></a>
+                            <div class="news_preview_text">
+                                <a href="" class="news_preview_title">[날씨] 내일도 35도 안팎 폭염・내륙 소나기⋯습도 높아 후텁지근</a>
+                                <p class="news_preview_substance">
+                                    오늘은 입추 절기지만 가을은 아직 멀리있는 것 같습니다. 일부 내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리진 못했는데요.
+                                    동해안을 제외한 전국 대부분 지방에 폭염 특보가 이어지는 가운데 내일도 한낮에 서울과 대전 35도, 광주와 대구가 36도까지 오를 것으로
+                                    예상됩니다. 내일도 대기가 불안정해지 면서 오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="news_preview_img">
+                            <div class="news_preview_text">
+                                <a href="" class="news_preview_title">[펫카드] 강아지 중성화가 필요한 이유</a>
+                                <p class="news_preview_substance">
+                                    (서울=뉴스1) 최서윤 기자,방은영 디자이너 = 강아지 중성화 수술을 놓고 찬반이 팽팽하게 엇갈린다. 많은 사람들은 사람들과 공존하려면
+                                    개체수
+                                    조절을 위해 필요하다고 주장한 다. 그러나 어떤 사람들은 인위적인 수술은 안된다며 반대한다. </p>
+                            </div>
+                        </li>
+                        <li class="news_preview_img">
+                            <a href=""  class="news_image_link"><img src="image/thumbnail1.jpg" alt="news" width="88" height="88"></a>
+                            <div class="news_preview_text">
+                                <a href="" class="news_preview_title">다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어 </a>
+                                <p class="news_preview_substance">
+                                    복숭아가 제철이다. 여름 복숭아는 다양한 건강 효과를 낸다. 복숭아에는 포도당, 과당, 수분이 풍부하고 유기산(산성을 띠는 물질로 식품에서 신맛을
+                                    냄)이 0. 5% 정도로 적게 들어 단맛이 강하다. 복숭아의 열량은 100g당 36kcal다. 복숭아 한 개에 약 100kcal 정도다. 포만감에 비해
+                                    열량이 적은 편이어서 다이어트를 하는 사람에게도 좋다. 비타민이 많아서 피로 해소에 도움이 된다.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <h4 class="register_title">웹툰</h4>
+                    <ul class="webtoon_preview">
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
+                                <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
+                                <div class="webtoon_preview_titlebox">
+                                    <strong class="webtoon_preview_title">하루 3컷</strong>
+                                </div>
+                                <p class="webtoon_preview_substance">
+                                    17화 편리하게 피곤하게
+                                </p>
+                            </a>
+                        </li>
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
+                                <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
+                                <div class="webtoon_preview_titlebox">
+                                    <span class="webtoon_preview_cuttoontag">컷툰</span>
+                                    <strong class="webtoon_preview_title">유미의 세포들</strong>
+                                </div>
+                                <p class="webtoon_preview_substance">
+                                    326화 미래에서 온 텔레파시
+                                </p>
+                            </a>
+                        </li>
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
+                                <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
+                                <div class="webtoon_preview_titlebox">
+                                    <strong class="webtoon_preview_title">이말년씨리즈 2018</strong>
+                                </div>
+                                <p class="webtoon_preview_substance">
+                                    58화 공포의 떡볶이
+                                </p>
+                            </a>
+                        </li>
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
+                                <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
+                                <div class="webtoon_preview_titlebox">
+                                    <span class="webtoon_preview_smarttoontag">스마트툰</span>
+                                    <strong class="webtoon_preview_title">덴마</strong>
+                                </div>
+                                <p class="webtoon_preview_substance">
+                                    195화 1.다이크(195)
+                                </p>
+                            </a>
+                        </li>
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
+                                <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
+                                <div class="webtoon_preview_titlebox">
+                                    <span class="webtoon_preview_cuttoontag">컷툰</span>
+                                    <strong class="webtoon_preview_title">1인용 기분</strong>
+                                </div>
+                                <p class="webtoon_preview_substance">
+                                    20화 평가
+                                </p>
+                            </a>
+                        </li>
+                        <li class="webtoon_preview_content">
+                            <a href="" class="webtoon_preview_link">
+                                <img src="image/thumbnail2.jpg" alt="webtoon" width="285" height="140">
+                                <div class="webtoon_preview_titlebox">
+                                    <strong class="webtoon_preview_title">찬란하지 않아도 괜찮아</strong>
+                                </div>
+                                <p class="webtoon_preview_substance">
+                                    56화 숨길 수 없어요.
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="info">
+            주소: <address class="address_name">경기도 성남시 분당구</address>, E-MAIL: honggildong@naver.com
+        </div>
+        <div class="copyright">Copyright &#169; Hong Gil Dong. All Rights Reserved.</div>
+    </footer>
+</body>
+
+</html>
